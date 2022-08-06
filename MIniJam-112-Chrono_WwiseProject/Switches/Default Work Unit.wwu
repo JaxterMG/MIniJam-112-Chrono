@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{698C2C28-C926-4BE1-B806-B5A72EC245F4}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{698C2C28-C926-4BE1-B806-B5A72EC245F4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GroundType" ID="{F585D060-FF61-49FF-B9CE-E609EB5E86E5}">
+					<ChildrenList>
+						<Switch Name="Step_wood" ID="{35FF5005-E1DB-4FE5-BDC7-F84242BEF24A}"/>
+						<Switch Name="Step_star" ID="{3FB6FE13-729D-4E5E-AF5F-1F6D51290D23}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
