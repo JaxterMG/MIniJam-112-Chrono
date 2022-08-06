@@ -1,6 +1,5 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,7 +8,9 @@ public class PlayerController : MonoBehaviour
     private Interactor _interactor;
     public Animator UiAnimator;
     public Camera Camera;
-    
+    private AnimationController _animationController;
+    private Rigidbody2D _rigidbody2D;
+
 
     private void Start()
     {
@@ -27,10 +28,14 @@ public class PlayerController : MonoBehaviour
         {
             InitializeInputApplyer();
         }
+
+        _animationController = GetComponent<AnimationController>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
+        _animationController.ChangeSpeedParameter(_rigidbody2D.velocity);
         if (_inputApplyer.IsMovementPressed)
         {
             _movement.Move(_inputApplyer.GetHorizontalInput());
@@ -62,6 +67,7 @@ public class PlayerController : MonoBehaviour
     {
         UiAnimator.Play("InteractionButtonAppear");
     }
+
     public void HidePlayerUI()
     {
         UiAnimator.Play("InteractionButtonDisappear");
