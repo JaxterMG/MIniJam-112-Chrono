@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{E7805514-9B4C-4421-A820-CE3442D77099}">
+					<ChildrenList>
+						<Action Name="" ID="{2B6353D8-0310-44EA-A014-1008A1E426B0}" ShortID="738667896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootStep" ID="{D2847571-8D07-483C-8C15-2547C0B7650F}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door" ID="{B960F9F4-1359-4B23-9461-C3B5D87213DC}">
+					<ChildrenList>
+						<Action Name="" ID="{F340DAA9-5F39-4B7C-950A-71553736E206}" ShortID="633881961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open the Door" ID="{091B30CB-35E5-4C95-8849-0D3A585DA7A8}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cat" ID="{154F1D6D-DCFB-4C2B-BD85-632F377FE49E}">
+					<ChildrenList>
+						<Action Name="" ID="{77A4BCE0-63EA-45DA-B5E9-39030650BB41}" ShortID="805724714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cat_MP" ID="{236C6914-94EA-4CD4-94D2-F26004A596FC}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stertgame" ID="{B59937CF-C048-45D1-849C-CD4AB686FF51}">
+					<ChildrenList>
+						<Action Name="" ID="{BE56218F-8CE5-4E85-BEFC-7240C7A147FA}" ShortID="1036274050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1_StartGame" ID="{AE2EE94D-78ED-4224-A5A4-E449CDD7D156}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
