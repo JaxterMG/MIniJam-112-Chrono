@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2518459408	Good_Night_Cat			\Default Work Unit\Good_Night_Cat	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	268559523	Lionsil - Good Night, Cat(Full)	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\Lionsil - Good Night, Cat(Full)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Ambience_2\Lionsil - Good Night, Cat(Full)		11178628
+
