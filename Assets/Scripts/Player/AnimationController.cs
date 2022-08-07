@@ -14,11 +14,11 @@ public class AnimationController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_speedParameter.x > 0 && !_playerSprite.flipX)
+        if (_speedParameter.x > 0 && _playerSprite.flipX)
         {
             _playerSprite.flipX = false;
         }
-        if (_speedParameter.x < 0 && _playerSprite.flipX)
+        if (_speedParameter.x < 0 && !_playerSprite.flipX)
         {
             _playerSprite.flipX = true;
         }
