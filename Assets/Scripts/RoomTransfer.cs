@@ -14,6 +14,10 @@ public class RoomTransfer : Interactable
 
     public UnityEvent OnInteact;
 
+    public string OnInteractSound = "Door";
+
+    private AK.Wwise.Event footstepsChange;
+
 
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -45,15 +49,21 @@ public class RoomTransfer : Interactable
     {
         OnInteact?.Invoke();
         PlaySound();
+       // AkSoundEngine.SetSwitch("GroundType", "Step_star",gameObject);
+       // footstepsChange.Post(gameObject);
         ScreenDarkening.Instance.EnableDarkScreen();
         StartCoroutine(Transfer());
     }
 
     public void PlaySound()
     {
-        AkSoundEngine.PostEvent("Door", this.gameObject);
+        AkSoundEngine.PostEvent(OnInteractSound, this.gameObject);
     }
-   
+
+    public void ChangeMusic()
+    {
+        //AkSoundEngine.stop
+    }
 
     public IEnumerator Transfer()
     {
