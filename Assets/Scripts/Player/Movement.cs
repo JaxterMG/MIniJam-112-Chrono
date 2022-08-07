@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Movement
 {
-    private float _speed = 2;
+    private float _speed = 1;
     private Rigidbody2D _rigidbody2D;
 
     public Movement(float speed, Rigidbody2D rigidbody2D)
