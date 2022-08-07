@@ -26,6 +26,7 @@ public class NextSceneLoader : Interactable
 
     public override void OnInteract()
     {
+        
         ScreenDarkening.Instance.EnableDarkScreen();
         StartCoroutine(ChangeScene());
     }
@@ -33,6 +34,7 @@ public class NextSceneLoader : Interactable
     IEnumerator ChangeScene()
     {
         yield return new WaitForSeconds(1);
+        AkSoundEngine.StopAll();
         SceneChanger.ChangeScene();
     }
 }
