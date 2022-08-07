@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 
     private void InitializeMovement()
     {
-        _movement = new Movement(2, GetComponent<Rigidbody2D>());
+        _movement = new Movement(1, GetComponent<Rigidbody2D>());
     }
 
     private void InitializeInteractor()
