@@ -37,6 +37,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -118,6 +123,11 @@
 											<Modifier Name="" ID="{54555E4D-CE8B-47CD-B101-ADBB880702D1}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -439,6 +449,105 @@
 						<ActiveSource Name="1_StartGame" ID="{15FEAD39-4FB8-45F8-A7EE-799005AA37F0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Music_Ambience_1" ID="{847CEC9C-34C2-402A-BF07-E0AE3A24628C}" ShortID="589233622">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{801F16A8-0B1D-422E-9353-CEC210228480}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDD891E8-F06A-420D-B684-98AE96564BFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lionsil - A Way To Home(Full)" ID="{939D14AF-F8D8-4469-B234-E35E46EAAA4C}" ShortID="681652149">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{801F16A8-0B1D-422E-9353-CEC210228480}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDD891E8-F06A-420D-B684-98AE96564BFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lionsil - A Way To Home(Full)" ID="{3FAC41A9-72B1-4F59-965D-02565F26F224}">
+									<Language>SFX</Language>
+									<AudioFile>Lionsil - A Way To Home(Full).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="654269986"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Lionsil - A Way To Home(Full)" ID="{3FAC41A9-72B1-4F59-965D-02565F26F224}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<Playlist>
+						<ItemRef Name="Lionsil - A Way To Home(Full)" ID="{939D14AF-F8D8-4469-B234-E35E46EAAA4C}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Music_Ambience_2" ID="{A6DD3D78-8578-46D8-A799-5D194C2C72A8}" ShortID="228716134">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{801F16A8-0B1D-422E-9353-CEC210228480}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDD891E8-F06A-420D-B684-98AE96564BFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lionsil - Good Night, Cat(Full)" ID="{C42236E2-C3C0-4B14-9542-824135F4CA60}" ShortID="750522625">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{801F16A8-0B1D-422E-9353-CEC210228480}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DDD891E8-F06A-420D-B684-98AE96564BFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lionsil - Good Night, Cat(Full)" ID="{25EE1E60-EF64-435F-AEF4-EE5C86E02A8D}">
+									<Language>SFX</Language>
+									<AudioFile>Lionsil - Good Night, Cat(Full).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="268559523"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Lionsil - Good Night, Cat(Full)" ID="{25EE1E60-EF64-435F-AEF4-EE5C86E02A8D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

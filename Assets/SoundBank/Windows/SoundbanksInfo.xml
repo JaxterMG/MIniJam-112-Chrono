@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\Assets\SoundBank\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1069431850" Language="SFX" Hash="2073234531">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0.331723" DurationMax="0.370181">
+					<IncludedMemoryFiles>
+						<File Id="105959458" Language="SFX">
+							<ShortName>2_Run_wood.wav</ShortName>
+							<Path>SFX\2_Run_wood_10C4C929.wem</Path>
+						</File>
+						<File Id="656821559" Language="SFX">
+							<ShortName>1_Run_wood.wav</ShortName>
+							<Path>SFX\1_Run_wood_10C4C929.wem</Path>
+						</File>
+						<File Id="946899811" Language="SFX">
+							<ShortName>1_Step_Transparent.wav</ShortName>
+							<Path>SFX\1_Step_Transparent_10C4C929.wem</Path>
+						</File>
+						<File Id="1034798771" Language="SFX">
+							<ShortName>2_Step_Transparent.wav</ShortName>
+							<Path>SFX\2_Step_Transparent_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{35FF5005-E1DB-4FE5-BDC7-F84242BEF24A}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{35FF5005-E1DB-4FE5-BDC7-F84242BEF24A}">
+							<Media>
+								<File Id="105959458"/>
+								<File Id="656821559"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3FB6FE13-729D-4E5E-AF5F-1F6D51290D23}">
+							<Media>
+								<File Id="946899811"/>
+								<File Id="1034798771"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="2835351336" Name="GroundType" ObjectPath="\Switches\Default Work Unit\GroundType" GUID="{F585D060-FF61-49FF-B9CE-E609EB5E86E5}">
+					<Switches>
+						<Switch Id="1041114565" Name="Step_wood" ObjectPath="\Switches\Default Work Unit\GroundType\Step_wood" GUID="{35FF5005-E1DB-4FE5-BDC7-F84242BEF24A}"/>
+						<Switch Id="3835575458" Name="Step_star" ObjectPath="\Switches\Default Work Unit\GroundType\Step_star" GUID="{3FB6FE13-729D-4E5E-AF5F-1F6D51290D23}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2591535158">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2075784027">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="983016379" Name="Cat" ObjectPath="\Events\Default Work Unit\Cat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="249241635" Language="SFX">
+							<ShortName>1_Cat_meow.wav</ShortName>
+							<Path>SFX\1_Cat_meow_10C4C929.wem</Path>
+						</File>
+						<File Id="698756390" Language="SFX">
+							<ShortName>2_Cat_purrs_2.wav</ShortName>
+							<Path>SFX\2_Cat_purrs_2_10C4C929.wem</Path>
+						</File>
+						<File Id="844296002" Language="SFX">
+							<ShortName>2_Cat_meow.wav</ShortName>
+							<Path>SFX\2_Cat_meow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" DurationType="OneShot" DurationMin="1.384626" DurationMax="1.384626">
+					<IncludedMemoryFiles>
+						<File Id="56553287" Language="SFX">
+							<ShortName>1_Door_open.wav</ShortName>
+							<Path>SFX\1_Door_open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3163593783" Language="SFX" Hash="4237132919">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambiet</ObjectPath>
+			<ShortName>Ambiet</ShortName>
+			<Path>Ambiet.bnk</Path>
+			<IncludedEvents>
+				<Event Id="607282865" Name="Stertgame" ObjectPath="\Events\Default Work Unit\Stertgame" DurationType="OneShot" DurationMin="6.283651" DurationMax="6.283651">
+					<IncludedMemoryFiles>
+						<File Id="396036204" Language="SFX">
+							<ShortName>1_StartGame.wav</ShortName>
+							<Path>SFX\1_StartGame_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1003831224" Name="Way_To_Home" ObjectPath="\Events\Default Work Unit\Way_To_Home" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="654269986" Language="SFX">
+							<ShortName>Lionsil - A Way To Home(Full).wav</ShortName>
+							<Path>SFX\Lionsil - A Way To Home(Full)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4095159979" Language="SFX" Hash="4073316371">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambient2</ObjectPath>
+			<ShortName>Ambient2</ShortName>
+			<Path>Ambient2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2518459408" Name="Good_Night_Cat" ObjectPath="\Events\Default Work Unit\Good_Night_Cat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="268559523" Language="SFX">
+							<ShortName>Lionsil - Good Night, Cat(Full).wav</ShortName>
+							<Path>SFX\Lionsil - Good Night, Cat(Full)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

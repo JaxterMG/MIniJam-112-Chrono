@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Good_Night_Cat" ID="{82DAA101-F66F-42B8-AD33-EFC681F1D168}">
+					<ChildrenList>
+						<Action Name="" ID="{946CE7C9-316C-450B-83DB-5316BB4D4B0F}" ShortID="567852981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Ambience_2" ID="{A6DD3D78-8578-46D8-A799-5D194C2C72A8}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Way_To_Home" ID="{5DDFF775-327B-4587-BF98-3A9902A7DCE4}">
+					<ChildrenList>
+						<Action Name="" ID="{6F80170F-4696-4F5F-9183-2E6F22D1040C}" ShortID="663340749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Ambience_1" ID="{847CEC9C-34C2-402A-BF07-E0AE3A24628C}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
