@@ -97,7 +97,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3163593783" Language="SFX" Hash="4237132919">
+		<SoundBank Id="3163593783" Language="SFX" Hash="363822547">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiet</ObjectPath>
 			<ShortName>Ambiet</ShortName>
 			<Path>Ambiet.bnk</Path>
@@ -120,7 +120,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4095159979" Language="SFX" Hash="4073316371">
+		<SoundBank Id="4095159979" Language="SFX" Hash="1945815002">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambient2</ObjectPath>
 			<ShortName>Ambient2</ShortName>
 			<Path>Ambient2.bnk</Path>

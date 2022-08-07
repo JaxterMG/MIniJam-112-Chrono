@@ -25,12 +25,12 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="lVqCs2JfF0e+dQzDesiTQA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="QiePMk/N7EGK2Lh88+zOpg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="Sw/Syz8UdUSc4ujSBeAaIAErHWT/////ejO421saOkil8MYB6mCO3wErHWT/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="Sw/Syz8UdUSc4ujSBeAaIAErPmv/////ejO421saOkil8MYB6mCO3wErPmv/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -62,7 +62,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="6JHY3WrwDUK2hJiullZL+w=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="kahBYQfwe0K0rWCI+JvQw3g93aZ4hdhGp5ldGUwscqiebe77qHyhSYJct0LkEOp8FGlsI+qU1EyU0vJgBKWW/A=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="nOx8hMI0KkC/B+CuOiRijJGoQWEH8HtCtK1giPib0MN4Pd2meIXYRqeZXRlMLHKonm3u+6h8oUmCXLdC5BDqfBRpbCPqlNRMlNLyYASllvw="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="y7OQNbc6Vk2TFJyD7ymHbQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="YNCF9WH//0m5zuYJ616G5SgsjGkmyeFLuAa1py7CRfQ="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
