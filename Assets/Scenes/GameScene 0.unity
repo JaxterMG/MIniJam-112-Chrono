@@ -7880,7 +7880,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ce7a8fadf52f6484a8fe89af68be2bed, type: 2}
 --- !u!1 &1865936900
 GameObject:
   m_ObjectHideFlags: 0
