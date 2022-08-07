@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1866025847	Footstep			\Default Work Unit\Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2835351336	GroundType			\Default Work Unit\GroundType	
+
+Switch	ID	Name	Switch Group			Notes
+	1041114565	Step_wood	GroundType			
+	3835575458	Step_star	GroundType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	105959458	2_Run_wood	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\2_Run_wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\Step_wood_LR\2_Run_wood		59492
+	656821559	1_Run_wood	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\1_Run_wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\Step_wood_LR\1_Run_wood		58644
+	946899811	1_Step_Transparent	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\1_Step_Transparent_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\Step_star_LR\1_Step_Transparent		62036
+	1034798771	2_Step_Transparent	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\2_Step_Transparent_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\Step_star_LR\2_Step_Transparent		65428
+
