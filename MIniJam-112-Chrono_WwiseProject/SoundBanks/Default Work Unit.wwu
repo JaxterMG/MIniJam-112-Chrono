@@ -20,7 +20,6 @@
 				</SoundBank>
 				<SoundBank Name="Ambiet" ID="{B3825A95-5F62-4717-BE75-0CC37AC89340}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Good_Night_Cat" ID="{82DAA101-F66F-42B8-AD33-EFC681F1D168}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Way_To_Home" ID="{5DDFF775-327B-4587-BF98-3A9902A7DCE4}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stertgame" ID="{B59937CF-C048-45D1-849C-CD4AB686FF51}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

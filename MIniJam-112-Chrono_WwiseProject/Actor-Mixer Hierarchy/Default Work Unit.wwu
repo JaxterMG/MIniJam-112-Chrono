@@ -231,6 +231,13 @@
 				</SwitchContainer>
 				<RandomSequenceContainer Name="Open the Door" ID="{091B30CB-35E5-4C95-8849-0D3A585DA7A8}" ShortID="930783510">
 					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E15CD3E1-AF3D-428E-88C3-DCA1EEAD8E5A}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
@@ -451,6 +458,13 @@
 				</Sound>
 				<RandomSequenceContainer Name="Music_Ambience_1" ID="{847CEC9C-34C2-402A-BF07-E0AE3A24628C}" ShortID="589233622">
 					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C73EAAC5-46B9-43A1-9732-16829AEF2AE1}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
@@ -466,6 +480,20 @@
 					<ChildrenList>
 						<Sound Name="Lionsil - A Way To Home(Full)" ID="{939D14AF-F8D8-4469-B234-E35E46EAAA4C}" ShortID="681652149">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{69E28C6F-14D6-45A4-B5E7-76C307C52C81}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -502,6 +530,13 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Music_Ambience_2" ID="{A6DD3D78-8578-46D8-A799-5D194C2C72A8}" ShortID="228716134">
 					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8000491E-6AA9-42B9-8D25-FAD4D57DC115}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
