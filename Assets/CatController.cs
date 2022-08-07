@@ -27,7 +27,12 @@ public class CatController : MonoBehaviour
     {
         yield return new WaitForSeconds(Delay);
         _animator.Play("CatWalk");
-        transform.DOMoveX( point.position.x, 10).OnComplete(delegate { _animator.Play("CatIdle"); });
+       var ePostEvent = AkSoundEngine.PostEvent("Cat", gameObject);
+        transform.DOMoveX( point.position.x, 10).OnComplete(delegate
+        {
+            AkSoundEngine.StopPlayingID(ePostEvent);
+            _animator.Play("CatIdle");
+        });
     }
     
 }

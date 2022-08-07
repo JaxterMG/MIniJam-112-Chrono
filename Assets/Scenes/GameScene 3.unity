@@ -1939,7 +1939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 1803090927}
-  _dialogueTexts: wefwe
+  _dialogueTexts: Happy times...
   _delay: 0.1
 --- !u!4 &755095186
 Transform:
@@ -4252,7 +4252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Music by Lionsil
+  m_text: Music and sound by Lionsil
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 992d70b14c82b51409cffb0da3ca0a6c, type: 2}
   m_sharedMaterial: {fileID: 5583668685867799632, guid: 992d70b14c82b51409cffb0da3ca0a6c, type: 2}
