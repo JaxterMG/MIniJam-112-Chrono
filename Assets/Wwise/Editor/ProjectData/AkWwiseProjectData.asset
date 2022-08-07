@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 98073adaaa611b4d878fee0b2837b1b0
     GuidInternal: 
-    m_lastTime: -8585417321994135738
+    m_lastTime: -8585417276446732064
     List:
     - name: Ambient2
       guid: 42278f324fcdec418ad8b87cf3eccea6
@@ -136,8 +136,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: cbb39035b73a564d93149c83ef29876d
     GuidInternal: 
-    m_lastTime: -8585417379735728476
+    m_lastTime: -8585417276446762098
     List:
+    - name: BedJump
+      guid: 0013820533174644aafb80b358790051
+      id: 2094517434
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cbb39035b73a564d93149c83ef29876d
+      - ElementName: BedJump
+        ObjectType: 3
+        guid: 0013820533174644aafb80b358790051
+      Path: Events\Default Work Unit\BedJump
+      maxAttenuation: 0
+      maxDuration: 0.671586
+      minDuration: 0.671586
     - name: Cat
       guid: 6d1d4f15fbdc2b4cbd85632f377fe49e
       id: 983016379

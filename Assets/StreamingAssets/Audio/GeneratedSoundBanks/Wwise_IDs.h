@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BEDJUMP = 2094517434U;
         static const AkUniqueID CAT = 983016379U;
         static const AkUniqueID DOOR = 1877847629U;
         static const AkUniqueID FOOTSTEP = 1866025847U;

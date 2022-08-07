@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{9E853434-E4CA-4AAF-9F9E-4500059BA128}">
 					<ObjectInclusionList>
+						<ObjectRef Name="BedJump" ID="{05821300-1733-4446-AAFB-80B358790051}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{B960F9F4-1359-4B23-9461-C3B5D87213DC}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cat" ID="{154F1D6D-DCFB-4C2B-BD85-632F377FE49E}" WorkUnitID="{3590B3CB-3AB7-4D56-9314-9C83EF29876D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
