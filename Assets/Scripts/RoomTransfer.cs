@@ -1,7 +1,6 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using Random = UnityEngine.Random;
+using UnityEngine.Events;
 
 public class RoomTransfer : Interactable
 {
@@ -12,6 +11,8 @@ public class RoomTransfer : Interactable
     [Header("TransferPoints")] public Transform _firstPoint;
     public Transform _secondPoint;
     public float Radius = 0.4f;
+
+    public UnityEvent OnInteact;
 
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -42,11 +43,19 @@ public class RoomTransfer : Interactable
 
     public override void OnInteract()
     {
+        OnInteact?.Invoke();
+        PlaySound();
         ScreenDarkening.Instance.EnableDarkScreen();
         StartCoroutine(Transfer());
     }
 
-    IEnumerator Transfer()
+    public void PlaySound()
+    {
+        AkSoundEngine.PostEvent("Door", this.gameObject);
+    }
+   
+
+    public IEnumerator Transfer()
     {
         yield return new WaitForSeconds(1);
         Player.transform.position = IsLeft ? Connection._secondPoint.position : Connection._firstPoint.position;
@@ -54,7 +63,8 @@ public class RoomTransfer : Interactable
         Camera.main.transform.position = Connection.GetComponentInParent<Room>().CameraPoint.position;
     }
 
-    private void OnDrawGizmos()
+    
+    public void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         var drawEnter = IsLeft ? _firstPoint.position : _secondPoint.position;
