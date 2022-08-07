@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BedJump" ID="{05821300-1733-4446-AAFB-80B358790051}">
+					<ChildrenList>
+						<Action Name="" ID="{FA0B7D6B-7C64-4E09-9CD1-4EF3D5CE013C}" ShortID="198007886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bed_jump" ID="{84CB3E3D-F0FD-4CC0-A79A-AF7907B71FF9}" WorkUnitID="{6141A891-F007-427B-B4AD-6088F89BD0C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

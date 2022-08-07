@@ -66,11 +66,19 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2075784027">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1786020094">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2094517434" Name="BedJump" ObjectPath="\Events\Default Work Unit\BedJump" DurationType="OneShot" DurationMin="0.671586" DurationMax="0.671586">
+					<IncludedMemoryFiles>
+						<File Id="398311748" Language="SFX">
+							<ShortName>1_Bed_jump.wav</ShortName>
+							<Path>SFX\1_Bed_jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="983016379" Name="Cat" ObjectPath="\Events\Default Work Unit\Cat" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="249241635" Language="SFX">

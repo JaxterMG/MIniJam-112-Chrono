@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	983016379	Cat			\Default Work Unit\Cat	
 	1877847629	Door			\Default Work Unit\Door	
+	2094517434	BedJump			\Default Work Unit\BedJump	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	907403669	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Cat_MP\Cat_meow_purrs\Silence\Wwise Silence	
@@ -8,6 +9,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	56553287	1_Door_open	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\1_Door_open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Open the Door\1_Door_open		244376
 	249241635	1_Cat_meow	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\1_Cat_meow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cat_MP\Cat_meow_purrs\Purrs_meow\1_Cat_meow		431800
+	398311748	1_Bed_jump	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\1_Bed_jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bed_jump\1_Bed_jump		149388
 	698756390	2_Cat_purrs_2	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\2_Cat_purrs_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cat_MP\Cat_meow_purrs\Purrs_meow\2_Cat_purrs_2		730324
 	844296002	2_Cat_meow	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Mac\SFX\2_Cat_meow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cat_MP\Cat_meow_purrs\Purrs_meow\2_Cat_meow		456392
 
