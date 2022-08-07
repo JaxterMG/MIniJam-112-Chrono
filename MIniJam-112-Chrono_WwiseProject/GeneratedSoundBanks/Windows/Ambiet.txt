@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	607282865	Stertgame			\Default Work Unit\Stertgame	
 	1003831224	Way_To_Home			\Default Work Unit\Way_To_Home	
+	2518459408	Good_Night_Cat			\Default Work Unit\Good_Night_Cat	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	268559523	Lionsil - Good Night, Cat(Full)	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\Lionsil - Good Night, Cat(Full)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Ambience_2\Lionsil - Good Night, Cat(Full)		11178628
 	396036204	1_StartGame	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\1_StartGame_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\1_StartGame		1108564
 	654269986	Lionsil - A Way To Home(Full)	D:\ВЕРОНИКА\GameAudioProgect\Uniti\MIniJam-112-Chrono\MIniJam-112-Chrono_WwiseProject\.cache\Windows\SFX\Lionsil - A Way To Home(Full)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Ambience_1\Lionsil - A Way To Home(Full)		6606648
 

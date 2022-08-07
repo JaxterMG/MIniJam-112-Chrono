@@ -105,11 +105,19 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3163593783" Language="SFX" Hash="363822547">
+		<SoundBank Id="3163593783" Language="SFX" Hash="3759716969">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiet</ObjectPath>
 			<ShortName>Ambiet</ShortName>
 			<Path>Ambiet.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2518459408" Name="Good_Night_Cat" ObjectPath="\Events\Default Work Unit\Good_Night_Cat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="268559523" Language="SFX">
+							<ShortName>Lionsil - Good Night, Cat(Full).wav</ShortName>
+							<Path>SFX\Lionsil - Good Night, Cat(Full)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="607282865" Name="Stertgame" ObjectPath="\Events\Default Work Unit\Stertgame" DurationType="OneShot" DurationMin="6.283651" DurationMax="6.283651">
 					<IncludedMemoryFiles>
 						<File Id="396036204" Language="SFX">
@@ -123,21 +131,6 @@
 						<File Id="654269986" Language="SFX">
 							<ShortName>Lionsil - A Way To Home(Full).wav</ShortName>
 							<Path>SFX\Lionsil - A Way To Home(Full)_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-		</SoundBank>
-		<SoundBank Id="4095159979" Language="SFX" Hash="1945815002">
-			<ObjectPath>\SoundBanks\Default Work Unit\Ambient2</ObjectPath>
-			<ShortName>Ambient2</ShortName>
-			<Path>Ambient2.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2518459408" Name="Good_Night_Cat" ObjectPath="\Events\Default Work Unit\Good_Night_Cat" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="268559523" Language="SFX">
-							<ShortName>Lionsil - Good Night, Cat(Full).wav</ShortName>
-							<Path>SFX\Lionsil - Good Night, Cat(Full)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

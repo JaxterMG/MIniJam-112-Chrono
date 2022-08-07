@@ -66,22 +66,8 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 98073adaaa611b4d878fee0b2837b1b0
     GuidInternal: 
-    m_lastTime: -8585417276446732064
+    m_lastTime: -8585417261513809687
     List:
-    - name: Ambient2
-      guid: 42278f324fcdec418ad8b87cf3eccea6
-      id: 4095159979
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 98073adaaa611b4d878fee0b2837b1b0
-      - ElementName: Ambient2
-        ObjectType: 7
-        guid: 42278f324fcdec418ad8b87cf3eccea6
-      Path: SoundBanks\Default Work Unit\Ambient2
     - name: Ambiet
       guid: 955a82b3625f1747be750cc37ac89340
       id: 3163593783
@@ -364,7 +350,7 @@ MonoBehaviour:
     m_lastTime: -8585419171112083192
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000f0000001000000011000000
+  ExpandedWaapiItemIds: 0500000006000000070000000f000000100000001100000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
