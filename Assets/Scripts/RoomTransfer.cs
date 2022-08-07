@@ -50,6 +50,7 @@ public class RoomTransfer : Interactable
     {
         yield return new WaitForSeconds(1);
         Player.transform.position = IsLeft ? Connection._secondPoint.position : Connection._firstPoint.position;
+        Player.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, 1);
         Camera.main.transform.position = Connection.GetComponentInParent<Room>().CameraPoint.position;
     }
 
