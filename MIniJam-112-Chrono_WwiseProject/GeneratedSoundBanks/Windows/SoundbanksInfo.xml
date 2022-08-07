@@ -120,7 +120,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4095159979" Language="SFX" Hash="4073316371">
+		<SoundBank Id="4095159979" Language="SFX" Hash="1945815002">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambient2</ObjectPath>
 			<ShortName>Ambient2</ShortName>
 			<Path>Ambient2.bnk</Path>

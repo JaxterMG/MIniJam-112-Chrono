@@ -582,6 +582,9 @@
 						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
+					<Playlist>
+						<ItemRef Name="Lionsil - Good Night, Cat(Full)" ID="{C42236E2-C3C0-4B14-9542-824135F4CA60}"/>
+					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
